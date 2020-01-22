@@ -1,17 +1,17 @@
 Follow this steps :
 
-pkg update
+1. pkg update
 
-pkg upgrade
+2. pkg upgrade
 
-pkg install php
+3. pkg install php
 
-pkg install curl
+3. pkg install curl
 
-pkg install git
+4. pkg install git
 
-git clone https://github.com/azr555/gjk
+5. git clone https://github.com/azr555/gjk
 
-cd gjk
+6. cd gjk
 
-php shot.php
+7. php shot.php
