@@ -7,7 +7,7 @@ echo color("green"," Auto Create & Redeem Voucher \n");
 echo color("green"," =================================== \n");
 echo " Created by : Vino AZR \n";
 echo " Version    : 555 \n";
-echo " Time       :" .date('d-m-Y||H:i:s')." \n";
+echo " Time       : ".date('d-m-Y||H:i:s')." \n";
 echo color("green"," =================================== \n");
 
 // function change(){
@@ -157,12 +157,12 @@ echo color("green"," =================================== \n");
 					}
 				}
 			}
-		
+		}else{
 			echo color("red","-] The code you entered is incorrect");
 			echo color("green", "\n =================================== \n\n");
 			echo color("yellow","!] Please input again \n");
 			goto otp;
-        }else{
+        
 			echo color("red","-] This number already registered");
 			echo color("green", "\n =================================== \n\n");
 			echo color("yellow","!] Please register again using other number \n");
