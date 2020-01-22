@@ -7,7 +7,7 @@ echo color("green"," Auto Create Gojek X Redeem Voucher \n");
 echo color("green"," Created by : Vino AZR \n");
 echo " Version : 555 \n";
 echo " Time    :".date('[d-m-Y] [H:i:s]')." \n";
-echo color("green"," ======================================== \n";
+echo color("green"," ======================================== \n");
 
 // function change(){
         $nama = nama();
