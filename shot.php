@@ -7,7 +7,7 @@ echo color("green"," Auto Create & Redeem Voucher \n");
 echo color("green"," =================================== \n");
 echo " Created by : Vino AZR \n";
 echo " Version    : 555 \n";
-echo " Time       : " .date('d-m-Y||H:i:s')." \n";
+echo " Time       : ".date('d-m-Y||H:i:s')." \n";
 echo color("green"," =================================== \n");
 
 //	function change(){
@@ -30,7 +30,7 @@ echo color("green"," =================================== \n");
             else if (substr(trim($nohp),0,1)=='0') {
                 $hp = '62'.substr(trim($nohp),1);
 			}
-			elseif(substr(trim($nohp), 0, 2)=='62'){
+			else if(substr(trim($nohp), 0, 2)=='62'){
 				$hp = '6'.substr(trim($nohp), 1);
 			}
 			else{
