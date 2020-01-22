@@ -157,7 +157,7 @@ echo color("green"," =================================== \n");
 					}
 				}
 			}
-		}else{
+		
 			echo color("red","-] The code you entered is incorrect");
 			echo color("green", "\n =================================== \n\n");
 			echo color("yellow","!] Please input again \n");
