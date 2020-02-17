@@ -10,8 +10,8 @@ Follow this steps :
 
 4. pkg install git
 
-5. git clone https://github.com/azr555/gjk
+5. git clone https://github.com/vey251/gjk
 
 6. cd gjk
 
-7. php shot.php
+7. php woyy.php
