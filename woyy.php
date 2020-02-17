@@ -5,7 +5,7 @@ echo color("green"," =================================== \n");
 echo color("green"," Claim Voucher \n");
 echo color("green"," Auto Create & Redeem Voucher \n");
 echo color("green"," =================================== \n");
-echo " Created by : Vino AZR \n";
+echo " Created by : Vey \n";
 echo " Version    : 555 \n";
 echo " Time       : ".date('d-m-Y||H:i:s')." \n";
 echo color("green"," =================================== \n");
@@ -86,14 +86,14 @@ echo color("green"," =================================== \n");
 						echo "\n".color("red","-] Message: ".$messageboba10);
 					}
 					goride:
-					echo "\n".color("yellow","!] Claim Voc PAKEKGOJEK20");
+					echo "\n".color("yellow","!] Claim Voc GOFOOD021120B");
 					echo "\n".color("yellow","!] Please wait...");
 					for($a=1;$a<=3;$a++){
 						echo color("yellow",".");
 						sleep(1);
 					}
 					sleep(3);
-					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEKGOJEK20"}');
+					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021102B"}');
 					$message1 = fetch_value($goride,'"message":"','"');
 					echo "\n".color("green","+] Message: ".$message1);
 							
