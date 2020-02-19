@@ -86,14 +86,14 @@ echo color("green"," =================================== \n");
 						echo "\n".color("red","-] Message: ".$messageboba10);
 					}
 					goride:
-					echo "\n".color("yellow","!] Claim Voc GOFOOD021120B");
+					echo "\n".color("yellow","!] Claim Voc GOFOODLAGI88");
 					echo "\n".color("yellow","!] Please wait...");
 					for($a=1;$a<=3;$a++){
 						echo color("yellow",".");
 						sleep(1);
 					}
 					sleep(3);
-					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021102B"}');
+					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODLAGI88"}');
 					$message1 = fetch_value($goride,'"message":"','"');
 					echo "\n".color("green","+] Message: ".$message1);
 							
