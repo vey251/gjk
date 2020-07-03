@@ -14,4 +14,4 @@ Follow this steps :
 
 6. cd gjk
 
-7. php woyy.php
+7. php preet.php
